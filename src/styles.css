@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+/* A dark base lets cyan and muted magenta identify actions without flooding the screen. */
+:root{font-family:'Space Grotesk',Arial,sans-serif;color:#e9f3f7;background:#080d15;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px}button,input,select{font:inherit}button{cursor:pointer}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Oxanium,'Space Grotesk',sans-serif;letter-spacing:.02em}h1{font-size:clamp(2.2rem,4vw,3.2rem);line-height:1;margin-bottom:.55rem}h2{font-size:1.65rem;margin-bottom:0}h3{font-size:1.3rem}p{color:#9cadb9;line-height:1.55}a{color:#28c9d1}.eyebrow{font-family:Oxanium,'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.18em;color:#24b9c4;font-size:.8rem}.app-shell{min-height:100vh;display:grid;grid-template-columns:240px minmax(0,1fr);background:radial-gradient(circle at 70% -10%,#10232a 0,transparent 34%),linear-gradient(90deg,rgba(23,77,87,.06) 1px,transparent 1px),linear-gradient(rgba(23,77,87,.06) 1px,transparent 1px),#080d15;background-size:auto,48px 48px,48px 48px,auto}.sidebar{position:sticky;top:0;height:100vh;border-right:1px solid #274350;background:linear-gradient(180deg,#0b1520,#091019);display:flex;flex-direction:column;padding:22px 12px}.brand{font-family:Oxanium,'Space Grotesk',sans-serif;font-weight:700;font-size:1.8rem;white-space:nowrap;display:flex;align-items:center;gap:10px}.brand__mark{color:#27c9d1;letter-spacing:-.17em;margin-right:.16em;font-size:2rem}.brand--mobile{display:none}.sidebar nav{margin-top:48px;display:grid;gap:4px}.sidebar nav button{border:1px solid transparent;color:#c4d1d8;text-align:left;background:transparent;padding:11px 14px;font-family:Oxanium,'Space Grotesk',sans-serif;font-weight:600;font-size:1.1rem;display:flex;gap:12px;align-items:center}.sidebar nav button:hover,.sidebar nav button.active{color:#43d4db;background:#0c2931;border-color:#1f8b95;clip-path:polygon(0 0,100% 0,100% 76%,93% 100%,0 100%)}.sidebar__caption{font-size:.65rem;letter-spacing:.16em;color:#55727e;margin:18px 14px 5px}.sidebar__footer{margin-top:auto;font-size:.65rem;letter-spacing:.14em;color:#47616b;padding:14px}.app-shell__main{min-width:0}.topbar{height:82px;border-bottom:1px solid #233c48;display:flex;align-items:center;justify-content:flex-end;gap:22px;padding:0 clamp(20px,3vw,48px);background:#081019bc}.topbar__label{font:600 .7rem Oxanium,'Space Grotesk',sans-serif;letter-spacing:.18em;color:#5f808d}.content{max-width:1600px;margin:0 auto;padding:36px clamp(20px,3vw,48px) 80px}.page-header{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px}.page-header p{margin:0}.page-header__metric{min-width:130px;padding:12px 18px;border:1px solid #1f5260;background:#0b1e27;display:grid;text-align:center}.page-header__metric strong{font:700 2.4rem Oxanium;color:#29c8cf;line-height:1}.page-header__metric span{font-size:.8rem;color:#aabdc7}.section{margin-top:34px}.section-heading{display:flex;align-items:center;gap:14px;border-bottom:1px solid #2b5260;margin-bottom:18px;padding-bottom:7px}.section-heading h2{padding:0 12px;border-left:3px solid #27c6cf}.section-heading span{font:700 .7rem Oxanium;letter-spacing:.18em;color:#64828e;margin-left:auto}.button{border:1px solid #2a5866;background:#10202b;color:#dcebf0;padding:10px 16px;min-height:42px;font:700 .95rem Oxanium,'Space Grotesk',sans-serif;letter-spacing:.04em;clip-path:polygon(0 0,94% 0,100% 24%,100% 100%,0 100%);transition:background .18s,border-color .18s,transform .18s}.button:hover{background:#173443;border-color:#37a5b0;transform:translateY(-1px)}.button:disabled{opacity:.48;cursor:not-allowed;transform:none}.button--primary{background:#19c2cb;color:#06151c;border-color:#19c2cb}.button--primary:hover{background:#4edbe0}.button--quiet{background:transparent;border-color:transparent;color:#a8bfca}.button--quiet:hover{border-color:#355d68}.item-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:18px}.item-card{display:flex;min-width:0;gap:16px;padding:16px;border:1px solid #345766;background:linear-gradient(135deg,#0d1b26,#0a131d);clip-path:polygon(0 12px,12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}.item-card--movie{border-color:#743757;background:linear-gradient(135deg,#20131f,#0b111b)}.item-card__art{height:180px;width:112px;flex:none;overflow:hidden;border:1px solid #31515c;background:linear-gradient(160deg,#123843,#0d1a29 62%,#17343b);display:grid;place-items:center;padding:12px}.item-card--movie .item-card__art{background:linear-gradient(160deg,#472137,#1a172a 62%,#182d36)}.item-card__art img{height:100%;width:100%;object-fit:cover}.item-card__art span{font:700 1.2rem Oxanium,sans-serif;text-align:center;line-height:1.15;text-transform:uppercase;letter-spacing:.1em;color:#d7f3f5;overflow-wrap:anywhere}.item-card__body{min-width:0;flex:1;display:flex;flex-direction:column}.item-card__topline{display:flex;justify-content:space-between;gap:8px;color:#7197a2;text-transform:uppercase;font:700 .68rem Oxanium;letter-spacing:.1em}.item-card--movie .item-card__topline{color:#ae718f}.item-card h3{font-size:1.45rem;line-height:1.08;margin:11px 0 2px;overflow-wrap:anywhere}.item-card__author{font-size:.82rem;margin-bottom:0}.item-card__count{color:#edf6f8;font-size:.9rem;font-weight:600;margin:16px 0 5px}.item-card__subcount{font-size:.72rem;margin:0 0 5px}.progress-track{width:100%;height:9px;border:1px solid #3d6672;background:#0c1921;overflow:hidden}.progress-track span{display:block;height:100%;background:#18bdc7;box-shadow:0 0 10px #0f8e9c}.item-card--movie .progress-track span{background:#8c4268;box-shadow:0 0 10px #5b2946}.item-card__actions{display:flex;align-items:center;flex-wrap:wrap;gap:4px;margin-top:auto;padding-top:16px}.item-card__actions .button{font-size:.78rem;min-height:34px;padding:6px 9px}.item-card__actions select{max-width:125px;background:#0b1822;color:#cddde3;border:1px solid #2e4b59;padding:7px;font-size:.74rem}.item-card__remove{margin-left:auto}.category-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}.category-tile{text-align:left;display:grid;gap:4px;min-height:130px;padding:17px;border:1px solid #31505e;color:#ecf3f5;background:#0c1822;clip-path:polygon(0 10px,10px 0,100% 0,100% 100%,0 100%)}.category-tile:hover{border-color:#2cc8d0;background:#102832}.category-tile--movie,.category-tile--anime{background:#1a131e;border-color:#653650}.category-tile--movie:hover,.category-tile--anime:hover{border-color:#9b4c73;background:#241724}.category-tile__icon{font-size:1.6rem;color:#2ac9d1}.category-tile--movie .category-tile__icon,.category-tile--anime .category-tile__icon{color:#a64d78}.category-tile strong{font:700 1.35rem Oxanium}.category-tile small{color:#91a6b0}.empty-state{border:1px dashed #315565;text-align:center;padding:42px 20px;background:#0b1922}.empty-state__glyph{display:block;font-size:2.5rem;color:#2ac5cb}.empty-state h3{margin:4px 0}.empty-state p{margin-bottom:17px}.filter-row{display:flex;gap:7px;overflow-x:auto;margin-bottom:22px;padding-bottom:4px}.filter-row button{flex:none;padding:8px 15px;border:1px solid #365665;background:#0b1924;color:#b7cad2;font:700 .95rem Oxanium}.filter-row button.selected{background:#123741;color:#40d4da;border-color:#28abb6}.library-controls{display:flex;gap:12px;margin-bottom:20px}.library-controls input{flex:1;min-width:0}.library-controls input,.library-controls select,.field-form input,.field-form select,.lookup input{background:#0a1721;border:1px solid #365564;color:#e9f3f7;padding:11px 12px;outline:none}.library-controls input:focus,.library-controls select:focus,.field-form input:focus,.field-form select:focus,.lookup input:focus{border-color:#22bbc4;box-shadow:0 0 0 2px #0b59604a}.library-controls select{min-width:145px}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stat-card{border:1px solid #315764;background:#0c1b25;padding:22px;min-height:125px;display:grid;gap:6px}.stat-card--magenta{border-color:#743b59;background:#1b1420}.stat-card span{color:#58aab2;font:700 .72rem Oxanium;letter-spacing:.16em}.stat-card--magenta span{color:#a36484}.stat-card strong{font:700 clamp(1.6rem,3vw,2.3rem) Oxanium;line-height:1}.stat-card small{color:#91aab4}.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.chart-panel{border:1px solid #315764;background:#0b1822;padding:20px;min-width:0}.chart-panel h3{margin-bottom:12px}.chart-scroll{overflow-x:auto}.chart-bars{height:180px;min-width:430px;display:flex;align-items:end;gap:7px}.chart-bar{flex:1;height:100%;display:flex;flex-direction:column;align-items:center;gap:3px}.chart-bar__value{height:20px;font-size:.65rem;color:#b1d1d8}.chart-bar__track{height:135px;width:100%;display:flex;align-items:end;background:#0f2530;border-bottom:1px solid #3b6773}.chart-bar__track span{display:block;width:100%;min-height:0;background:linear-gradient(0deg,#146671,#26c7cf)}.chart-bar__label{font-size:.65rem;color:#72929e}.chart-panel__hint{font-size:.74rem;margin:12px 0 0}.statistics-note{font-size:.78rem;margin-top:28px}.settings-panel{max-width:780px;border:1px solid #315764;background:#0c1b25;padding:24px;margin-bottom:18px}.settings-panel h2{margin:5px 0 8px}.settings-panel__actions{display:flex;gap:10px;flex-wrap:wrap}.settings-panel__message{color:#61d7d7;margin:16px 0 0}.modal-backdrop{position:fixed;inset:0;background:#02060bcc;z-index:10;display:grid;place-items:center;padding:18px;overflow-y:auto}.modal{width:min(100%,550px);max-height:min(90vh,850px);overflow-y:auto;border:1px solid #378493;background:linear-gradient(145deg,#0f202b,#0a121c);padding:24px;box-shadow:0 20px 80px #000a}.modal__header{display:flex;justify-content:space-between;gap:16px;align-items:start;margin-bottom:20px}.modal__header h2{font-size:2rem;margin:5px 0 0}.icon-button{border:1px solid #3a6470;background:#0b1a25;color:#d7eaef;width:36px;height:36px;font-size:1.5rem;line-height:1}.field-form{display:grid;gap:15px}.field-form label,.lookup label{display:grid;gap:7px;color:#a9c1ca;font-size:.82rem;font-weight:600}.field-form__hint{font-size:.78rem;margin:0}.modal__actions{display:flex;justify-content:flex-end;gap:7px;padding-top:9px}.lookup{border:1px solid #294b57;background:#0b1923;padding:14px;margin-bottom:18px}.lookup__row{display:flex;gap:8px;margin-top:7px}.lookup__row input{flex:1;min-width:0}.lookup__results{display:grid;max-height:180px;overflow:auto;margin-top:10px}.lookup__results button{text-align:left;border:0;border-bottom:1px solid #24404b;background:transparent;color:#eaf4f7;padding:9px;display:grid}.lookup__results button:hover{background:#15323b}.lookup__results span{font-size:.74rem;color:#8eabb5}.form-error{color:#ff9dba;margin:0;font-size:.8rem}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.startup-message{min-height:100vh;display:grid;place-content:center;text-align:center;padding:20px}.bottom-nav{display:none}
+@media(max-width:1100px){.category-grid{grid-template-columns:repeat(3,1fr)}.item-grid{grid-template-columns:repeat(auto-fill,minmax(310px,1fr))}}
+@media(max-width:760px){.app-shell{display:block}.sidebar{display:none}.brand--mobile{display:flex;font-size:1.45rem}.brand__mark{font-size:1.6rem}.topbar{height:70px;justify-content:space-between;padding:0 18px}.topbar__label{display:none}.topbar .button{display:none}.content{padding:25px 16px 110px}.page-header{align-items:start;margin-bottom:24px}.page-header>.button{display:none}.page-header__metric{min-width:90px;padding:9px}.page-header__metric strong{font-size:1.7rem}.category-grid{grid-template-columns:repeat(2,1fr)}.item-grid{grid-template-columns:1fr}.item-card{gap:12px;padding:13px}.item-card__art{width:88px;height:150px}.item-card h3{font-size:1.25rem}.item-card__actions{padding-top:10px}.stat-grid{grid-template-columns:repeat(2,1fr)}.chart-grid{grid-template-columns:1fr}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;height:74px;z-index:5;justify-content:space-around;border-top:1px solid #2e6c77;background:#08131df5;padding-bottom:env(safe-area-inset-bottom)}.bottom-nav button{flex:1;border:0;background:transparent;color:#91aeb8;font:600 .67rem 'Space Grotesk',sans-serif;display:grid;place-content:center;gap:4px;min-width:0}.bottom-nav button span{font-size:1.3rem;line-height:1}.bottom-nav button.active{color:#28c7d0}.bottom-nav .bottom-nav__add{color:#24c9d1}.bottom-nav__add span{font-size:1.8rem!important}.modal{padding:18px;max-height:calc(100vh - 28px)}.library-controls{flex-direction:column}.library-controls select{width:100%}}
+@media(max-width:430px){.item-card__art{width:75px;height:130px}.item-card__actions .button{font-size:.7rem}.item-card__actions select{max-width:115px}.stat-grid{grid-template-columns:1fr}.category-tile{min-height:100px}.page-header__metric{display:none}}
+
+/* Keep browser controls aligned with the dark cyberpunk theme. */
+.app-shell{grid-template-columns:260px minmax(0,1fr)}
+.brand{font-size:1.48rem;letter-spacing:-.025em;gap:8px}
+.brand__mark{font-size:1.8rem;flex:none}
+.field-form__field{display:grid;gap:7px;color:#a9c1ca;font-size:.82rem;font-weight:600}
+.custom-select{min-width:0}
+.custom-select__trigger{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:43px;padding:10px 12px;text-align:left;border:1px solid #365564;background:#0a1721;color:#e9f3f7;font:inherit}
+.custom-select__trigger:hover{border-color:#2c8590}
+.custom-select__trigger:focus-visible,.custom-select__option:focus-visible{outline:2px solid #2ac9d1;outline-offset:2px}
+.custom-select__trigger[aria-expanded=true]{border-color:#27b8c1;background:#0b2029}
+.custom-select__chevron{display:block;flex:none;width:8px;height:8px;margin-right:3px;border-right:2px solid #28c9d1;border-bottom:2px solid #28c9d1;transform:translateY(-2px) rotate(45deg)}
+/* Render the classic popup above clipped cards without growing their layout. */
+.custom-select__menu{display:grid;position:fixed;z-index:30;overflow-y:auto;border:1px solid #2c6874;background:#0b1923;box-shadow:0 14px 34px #000b}
+.custom-select__option{min-height:39px;padding:9px 12px;text-align:left;border:0;border-bottom:1px solid #1f3a46;background:transparent;color:#d8e8ed;font:inherit}
+.custom-select__option:last-child{border-bottom:0}
+.custom-select__option:hover,.custom-select__option:focus-visible{background:#14333d}
+.custom-select__option[aria-selected=true]{color:#4bd3d9;background:#12323b}
+/* Match card popup rows to their small status trigger. */
+.custom-select__menu--compact .custom-select__option{min-height:34px;padding:6px 8px;font-size:.74rem;line-height:1.25}
+.item-card__actions .custom-select{width:125px;max-width:100%}
+.item-card__actions .custom-select__trigger{min-height:34px;padding:6px 8px;font-size:.74rem}
+.library-controls .custom-select{min-width:145px}
+@media(max-width:760px){.app-shell{display:block}.library-controls .custom-select{width:100%}}
+
+/* Remove native scroll arrows and number spinners while preserving scrolling and typing. */
+*{scrollbar-width:thin;scrollbar-color:#236e78 transparent}
+*::-webkit-scrollbar{width:7px;height:7px}
+*::-webkit-scrollbar-track,*::-webkit-scrollbar-corner{background:transparent}
+*::-webkit-scrollbar-thumb{background:#236e78;border-radius:5px}
+*::-webkit-scrollbar-thumb:hover{background:#2ea8b2}
+*::-webkit-scrollbar-button{display:none;width:0;height:0}
+input[type=number]{appearance:textfield;-moz-appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+
+/* Keep each selected library section's Add button available on small screens. */
+@media(max-width:760px){.page-header{flex-wrap:wrap}.page-header>.button{display:inline-flex;margin-left:auto}}
+
+/* Show book art in lookup rows and fit the full cover within its card panel. */
+.lookup__results button{display:flex;align-items:center;gap:10px;min-height:72px;padding:7px 4px}
+.lookup__results img,.lookup__results .lookup__cover-placeholder{width:42px;height:58px;flex:none}
+.lookup__results img{display:block;object-fit:contain;background:#10222c}
+.lookup__results .lookup__cover-placeholder{display:grid;place-items:center;border:1px solid #30515d;background:#10222c;color:#5ca6b0;font-size:1.5rem}
+.lookup__results .lookup__result-copy{display:grid;gap:3px;min-width:0;color:#eaf4f7;font-size:.9rem}
+.lookup__result-copy strong{overflow-wrap:anywhere}
+.lookup__result-copy span{font-size:.74rem;color:#8eabb5}
+.item-card__art{padding:0}
+.item-card__art img{display:block;width:100%;height:100%;object-fit:contain}
+.item-card__art span{padding:12px}
+
+/* Keep generated category artwork legible across navigation, tiles, and cover fallbacks. */
+.media-icon{display:block;flex:none;object-fit:contain;pointer-events:none;user-select:none}
+.sidebar nav button .media-icon,.bottom-nav button .media-icon{opacity:.72}
+.sidebar nav button:hover .media-icon,.sidebar nav button.active .media-icon,.bottom-nav button.active .media-icon{opacity:1}
+.bottom-nav button .media-icon{justify-self:center}
+.category-tile__icon{max-width:100%;margin:-6px 0 -5px}
+.category-tile:hover .media-icon{transform:translateY(-2px)}
+.library-title{display:flex;align-items:center;gap:10px;margin:5px 0 9px}
+.library-title h1{margin:0}
+.empty-state .media-icon{margin:0 auto 8px}
+.item-card__art .item-card__fallback-icon{max-width:80%;max-height:80%}
+@media(max-width:760px){.library-title .media-icon{max-width:44px;max-height:44px}}
+
+/* Fade masked artwork details while leaving the rest of the city steady. */
+.app-shell { isolation: isolate; }
+.app-ambience {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: #080d15;
+}
+.app-ambience__scene {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(4,9,16,.65), rgba(4,9,16,.14)),
+    url("./Resources/backgrounds/cyberpunk-city-desktop.png") center / cover no-repeat;
+}
+.app-ambience__details {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  animation: city-detail-shift 2.8s ease-in-out infinite alternate;
+}
+.app-ambience__details--mobile { display: none; }
+.sidebar, .app-shell__main { z-index: 1; }
+.app-shell__main { position: relative; }
+
+@keyframes city-detail-shift {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (max-width: 760px) {
+  .app-ambience__scene {
+    background-image:
+      linear-gradient(180deg, rgba(4,9,16,.32), rgba(4,9,16,.57)),
+      url("./Resources/backgrounds/cyberpunk-city-mobile.png");
+  }
+  .app-ambience__details--desktop { display: none; }
+  .app-ambience__details--mobile { display: block; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-ambience__details { animation: none; opacity: 0; }
+}
